@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Блог</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/blog.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="jOuery/jquery-3.7.1.js"></script>
+    <!-- Подключение дополнительных сценариев -->
+    <script src="js/blog.js"></script>
+</head>
+
+<body>
+<header>
+    <nav id="myTopnav">
+        <img  src="img/hsrlogo.png"  alt="Логотип сайта">
+        <ul>
+            <li><a href="index.html" title="На главную">Главная</a></li>
+            <li><a href="#services" title="Общая информация">Общее</a></li>
+            <li><a href="gallery.html" title="Фотогалерея">Галерея</a></li>
+            <li><a href="contacts.html" title="Контактная информация">Контакты</a></li>
+            <li><a href="blog.html" title="<Блог>">Блог</a></li>
+        </ul>
+        <div id="hamburger" class="icon ">&#9776;</div>
+
+    </nav>
+</header>
+<main>
+    <section id="top">
+        <img class="top-image" src="img/start.webp" alt="Обложка страницы">
+    </section>
+    <article class="blog-article">
+        <div class="blog-container"></div>
+        <aside class="blog-aside">
+            <div class="aside-search">
+                <h3 class="search-title">Поиск в блоге</h3>
+                <div class="search-delimiter"></div>
+                <input class="search-text" type="search" name="search-text" placeholder="Введите слово">
+                <input class="search-do" type="submit" name="search-do" value="Искать">
+            </div>
+            <div class="aside-recent">
+                <h3 class="search-title">Популярные статьи</h3>
+                <div class="search-delimiter"></div>
+                <div class="recent-item">
+                    <p>Короткометражный анимационный фильм «Рондо на протяжении бесчисленных кальп»</p>
+                    <span>19.3.2024</span>
+                </div>
+                <div class="recent-item">
+                    <p>Трейлер путешествия тысячи звёзд: «Стрела в погоне за звездой»</p>
+                    <span>3.9.2024</span>
+                </div>
+                <div class="recent-item">
+                    <p>Трейлер золотого эпоса: «Сказания о героях Амфореуса»</p>
+                    <span>22.11.2024</span>
+                </div>
+            </div>
+        </aside>
+    </article>
+</main>
+    <footer>
+        <ul>
+            <li><a href="index.html" class="menu-element" title="На главную">Главная</a></li>
+            <li><a href="#services" class="menu-element" title="Общая информация">Общее</a></li>
+            <li><a href="gallery.html" class="menu-element" title="Фотогалерея">Галерея</a></li>
+            <li><a href="contacts.html" class="menu-element" title="Контактные данные">Контакты</a></li>
+            <li><a href="blog.html" class="menu-element" title="<Блог>">Блог</a></li>
+        </ul>
+        <div class="brand">
+            <img src="img/hsrlogo.png" alt="Логотип сайта"><span>AWESOME</span></div>
+        <div class="social">
+            <a href="#" title="Facebook" target="_blank">
+                <img class="social-img" src="img/social/001-facebook.png" alt="Facebook">
+            </a>
+            <a href="#" title="LinkedIn" target="_blank">
+                <img class="social-img" src="img/social/004-linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="#" title="Instagram" target="_blank">
+                <img class="social-img" src="img/social/005-instagram.png" alt="Instagram">
+            </a>
+            <a href="#" title="Twitter" target="_blank">
+                <img class="social-img" src="img/social/007-twitter.png" alt="Twitter">
+            </a>
+            <a href="#" title="Tumblr" target="_blank">
+                <img class="social-img" src="img/social/010-tumblr.png" alt="Tumblr">
+            </a>
+        </div>
+        <div class="copyright">© Very First Page 2024</div>
+    </footer>
+
+</body>
+</html>

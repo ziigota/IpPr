@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My first page</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="jOuery/jquery-3.7.1.js"></script>
+    <!-- Подключение дополнительных сценариев -->
+    <script src="js/script.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/contacts.js"></script>
+
+</head>
+<body>
+<header>
+<nav id="myTopnav">
+    <img  src="img/hsrlogo.png"  alt="Логотип сайта">
+    <ul>
+        <li><a href="#top" title="На главную">Главная</a></li>
+        <li><a href="#services" title="Общая информация">Общее</a></li>
+        <li><a href="gallery.html" title="Фотогалерея">Галерея</a></li>
+        <li><a href="contacts.html" title="Контактная информация">Контакты</a></li>
+        <li><a href="blog.html" title="<Блог>">Блог</a></li>
+    </ul>
+    <div id="hamburger" class="icon ">&#9776;</div>
+
+</nav>
+</header>
+<main>
+    <section>
+        <img class="top-image" id="top" src="img/start.webp" alt="Обложка страницы">
+    </section>
+    <section class="services" id="services">
+        <h1 class="main-title">Наши пути</h1>
+        <div class="delimiter"></div>
+        <p class="main-title-description">Lorem ipsum dolor sit amet</p>
+        <div class="services-container">
+            <div class="container-row">
+                <div class="row-item">
+                <img class="item-png" src="img/paththeabundance.png" alt="">
+                    <h2>Изобилие</h2>
+                    <p>Соответствует Эону Яоши. Кормилица всего живого, богиня мира, которая стремится сохранить жизнь в процветании.</p>
+                </div>
+                <div class="row-item"> <img class="item-png" src="img/paththeharmony.png" alt="">
+                    <h2>Гармония</h2>
+                    <p>Соответствует Эону Шипе. Представляет собой объединение тысяч сущностей, проповедующих радость человеческой гармонии и единства.</p>
+                </div>
+                <div class="row-item"><img class="item-png" src="img/paththeelation.png" alt="">
+                    <h2>Радость</h2>
+                    <p>Соответствует Эону Ахе.Удовольствие — это исключительное право разумных существ. Ни камни, ни звёзды не могут оценить чувство юмора жизни.</p>
+                </div>
+                    <div class="row-item"><img class="item-png" src="img/paththenihility.png" alt="">
+                        <h2>Небытие</h2>
+                        <p>Соответствует Эону IX.Его существование — загадка. IX не взаимодействует с другими Эонами. Он верит, что окончательная судьба мультивселенной — небытие и, следовательно, ничтожность.</p>
+                    </div>
+                        <div class="row-item"><img class="item-png" src="img/paththepreservation.png" alt="">
+                            <h2>Сохранение</h2>
+                            <p>Соответствует Эону Клипоту. Строитель Стены небесной кометы, Кристаллического барьера подпространства и основания Великого аттрактора. Последователи называют его Повелителем Янтаря.</p>
+                        </div>
+                            <div class="row-item"><img class="item-png" src="img/paththetrailblaze.png" alt="">
+                                <h2>Освоение</h2>
+                                <p>Соответствует Эону Акивили. На компасе судьбы отмечены три направления: неизвестное, известное и непознаваемое. Акивили покинул изолированный мир Пеганы и стал осваивать неизведанные рубежи Вселенной, пытаясь найти конечную точку Древа бытия. </p>
+                            </div>
+            </div>
+        </div>
+    </section>
+    <section class="overlay black-back">
+        <h2 class="main-title">Подробности</h2>
+        <div class="delimiter"></div>
+        <p class="main-title-description">Lorem ipsum dolor sit amet</p>
+        <button class="common-button" type="button" name="button">Узнать</button>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h2 class="main-title">Наши фракции</h2>
+        <div class="delimiter"></div>
+        <p class="main-title-description">текст</p>
+        <div class="portfolio-container">
+            <div class="portfolio-item" style="background-image: url('img/portfolio/01.jfif');" data-src="img/portfolio/01.jfif">
+                <div class="description-container">
+                    <p class="portfolio-title">Общество гениев</p>
+                    <p class="portfolio-description">
+                        Собрание самых выдающихся гениев и умнейших разумов во вселенной.
+                    </p>
+                </div>
+            </div>
+            <div class="portfolio-item" style="background-image: url('img/portfolio/cmm.webp');" data-src="img/portfolio/cmm.webp">
+                <div class="description-container">
+                    <p class="portfolio-title">Корпорация межзвёздного мира</p>
+                    <p class="portfolio-description">
+                        Высокотехнологична пангалактическа мегакорпорация, под контролем которой находятся триллионы существ.
+                    </p>
+                </div>
+            </div>
+            <div class="portfolio-item" style="background-image: url('img/portfolio/Ten_Stonehearts.webp');" data-src="img/portfolio/Ten_Stonehearts.webp">
+                <div class="description-container">
+                    <p class="portfolio-title">10 каменных сердец</p>
+                    <p class="portfolio-description">
+                        Элитная команда, являющаяся частью отдела стратегических инвестиций КММ.
+                    </p>
+                </div>
+            </div>
+            <div class="portfolio-item" style="background-image: url('img/portfolio/honkai-star-rail-build-argenti-1.jpg');" data-src="img/portfolio/honkai-star-rail-build-argenti-1.jpg">
+                <div class="description-container">
+                    <p class="portfolio-title">Рыцари красоты</p>
+                    <p class="portfolio-description">
+                        Люди, которые горячо восхваляли красоту Эона Идрилы. Умелые воины объединились и стали Рыцарями Красоты.
+                    </p>
+                </div>
+            </div>
+            <div class="portfolio-item" style="background-image: url('img/portfolio/05.webp');" data-src="img/portfolio/05.webp">
+                <div class="description-container">
+                    <p class="portfolio-title">Альянс Сяньчжоу</p>
+                    <p class="portfolio-description">
+                        Представляет из себя огромный флот космических кораблей, который скитается по Галактике.
+
+                    </p>
+                </div>
+            </div>
+            <div class="portfolio-item" style="background-image: url('img/portfolio/hunter.jfif');" data-src="img/portfolio/hunter.jfif">
+                <div class="description-container">
+                    <p class="portfolio-title">Охотники за стеллароном</p>
+                    <p class="portfolio-description">
+                        Преступная группировка, известная во всей вселенной. Их основная цель — захват Стелларонов по всему миру любой ценой.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials">
+        <h1 class="main-title">Отзывы</h1>
+        <div class="delimiter"></div>
+        <p class="main-title-description">Наши клиенты о нас</p>
+        <!-- внешний блок -->
+        <div class="testimonials-container">
+            <!-- обёртка -->
+            <div class="testimonials-inner">
+                <div class="testimonials-card">
+                    <div class="card-row">
+                        <img class="card-img" src="img/testimonials/001.jpg" alt="">
+                        <div class="card-head">
+                            <h4>Авантюрин</h4>
+                            <span>25/02/2021</span>
+                            <p>КММ объединяет миры, способствуя процветанию и гармонии. Их деятельность развивает Эрудицию, приносит Радость и помогает сдерживать Разрушение. Это ключ к благополучию вселенной!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials-card">
+                    <div class="card-row">
+                        <img class="card-img" src="img/testimonials/007.jpg" alt="">
+                        <div class="card-head">
+                            <h4>Доктор Рацио</h4>
+                            <span>25/02/2021</span>
+                            <p>Общество Гениев — оплот разума и изобретательности. Их стремление к познанию и прогрессу впечатляет и вдохновляет на великие свершения.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials-card">
+                    <div class="card-row">
+                        <img class="card-img" src="img/testimonials/003.jpeg" alt="">
+                        <div class="card-head">
+                            <h4>Химеко</h4>
+                            <span>25/02/2021</span>
+                            <p>Охотники за Стеллароном — смелые и решительные. Они стоят на страже вселенной, справляясь с опасностями, где другие не осмеливаются. Их работа заслуживает уважения!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials-card">
+                    <div class="card-row">
+                        <img class="card-img" src="img/testimonials/004.jpg" alt="">
+                        <div class="card-head">
+                            <h4>Бутхилл</h4>
+                            <span>25/02/2021</span>
+                            <p>Рыцари Красоты — истинные мастера вдохновения! Их стремление к совершенству и гармонии делает мир вокруг ярче. Настоящие хранители прекрасного!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials-card">
+                    <div class="card-row">
+                        <img class="card-img" src="img/testimonials/006.jpg" alt="">
+                        <div class="card-head">
+                            <h4>Топаз</h4>
+                            <span>25/02/2021</span>
+                            <p>КММ — это сердце межзвёздной торговли и развития. Их вклад в процветание мира неоценим, а эффективность и масштаб впечатляют даже меня. Настоящие мастера своего дела!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials-card">
+                    <div class="card-row">
+                        <img class="card-img" src="img/testimonials/005.jpg" alt="">
+                        <div class="card-head">
+                            <h4>Яшма</h4>
+                            <span>25/02/2021</span>
+                            <p>Десять Каменных Сердец — символ нерушимой воли и стойкости. Их сила и единство вдохновляют, напоминая, что даже камень может нести в себе тепло жизни.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- кнопки -->
+            <div class="testimonials-controls">
+                <div class="control-item active"></div>
+                <div class="control-item"></div>
+                <div class="control-item"></div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2  class="main-title">Контактная форма</h2>
+        <div class="delimiter"></div>
+        <p class="main-title-description">С радостью ответим на любой ваш вопрос</p>
+       <form id="contactform" method="post" action="mailto:адрес вашей электронной почты"  class="contact-form">
+            <input name="name" type="text" class="col" placeholder="Ваше имя *" required>
+            <input name="email" type="email" class="col" placeholder="E-mail адрес *" required>
+            <input name="theme" type="text" class="col" placeholder="Тема сообщения">
+            <input name="phone" type="tel" class="col" placeholder="Номер телефона">
+            <textarea name="comment" class="row-col" placeholder="Сообщение *" required></textarea>
+            <span class="row-col check">
+            <input id="accept" type="checkbox" class="" required>
+            <label for="accept">Я прочитал(a) и принимаю условия</label>
+            <a href="#">Пользовательского соглашения</a>
+            </span>
+            <input type="submit" id="submit" class="submit btn" value="Отправить сообщение">
+        </form>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="#top" title="На главную">Главная</a></li>
+            <li><a href="#services" title="Общая информация">Общее</a></li>
+            <li><a href="gallery.html" title="Фотогалерея">Галерея</a></li>
+            <li><a href="contacts.html" class="menu-element" title="Контактные данные">Контакты</a></li>
+            <li><a href="blog.html" class="menu-element" title="<Блог>">Блог</a></li>
+        </ul>
+        <div class="brand">
+            <img src="img/hsrlogo.png" alt="Логотип сайта"><span>AWESOME</span></div>
+            <div class="social">
+                <a href="#" title="Facebook" target="_blank">
+                    <img class="social-img" src="img/social/001-facebook.png" alt="Facebook">
+                </a>
+                <a href="#" title="LinkedIn" target="_blank">
+                    <img class="social-img" src="img/social/004-linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="#" title="Instagram" target="_blank">
+                    <img class="social-img" src="img/social/005-instagram.png" alt="Instagram">
+                </a>
+                <a href="#" title="Twitter" target="_blank">
+                    <img class="social-img" src="img/social/007-twitter.png" alt="Twitter">
+                </a>
+                <a href="#" title="Tumblr" target="_blank">
+                    <img class="social-img" src="img/social/010-tumblr.png" alt="Tumblr">
+                </a>
+            </div>
+        <div class="copyright">© Very First Page 2024</div>
+    </footer>
+
+</main>
+</body>
+</html>
