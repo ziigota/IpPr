@@ -55,4 +55,36 @@
     max-width: 800px;
     margin: 0 auto; /* Центрирует контейнер */
 }
+.col:nth-child(1) .btn-outline-primary {
+    color: #FF5733; /* Цвет текста кнопки */
+    border-color: #FF5733; /* Цвет обводки кнопки */
+}
+.col:nth-child(1) .btn-outline-primary:hover {
+    background-color: #FF5733; /* Цвет фона при наведении */
+    color: #fff; /* Цвет текста при наведении */
+}
+
+/* Вторая колонка */
+.col:nth-child(2) .btn-primary {
+    background-color: #33A1FF; /* Цвет кнопки */
+    border-color: #33A1FF; /* Цвет обводки кнопки */
+}
+.col:nth-child(2) .btn-primary:hover {
+    background-color: #007ACC; /* Цвет кнопки при наведении */
+    border-color: #007ACC; /* Цвет обводки при наведении */
+}
+
+/* Третья колонка */
+.col:nth-child(3) .card-header {
+    background-color: #6C33FF; /* Цвет заголовка */
+    border-color: #6C33FF; /* Цвет обводки заголовка */
+}
+.col:nth-child(3) .btn-primary {
+    background-color: #6C33FF; /* Цвет кнопки */
+    border-color: #6C33FF; /* Цвет обводки кнопки */
+}
+.col:nth-child(3) .btn-primary:hover {
+    background-color: #4B0099; /* Цвет кнопки при наведении */
+    border-color: #4B0099; /* Цвет обводки при наведении */
+}
 

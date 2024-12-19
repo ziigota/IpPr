@@ -588,6 +588,12 @@ header {
 .map .main-title-description {
     margin-bottom: 30px;
 }
+.card img {
+    max-width: 100%; /* Ограничение ширины в пределах карточки */
+    height: 200px; /* Фиксированная высота */
+    object-fit: cover; /* Обрезка изображения, чтобы заполнить область */
+    object-position: center; /* Центрирование изображения */
+}
 @media screen and (max-width: 992px) {
     .row-item {
         width: 45%;
